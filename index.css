@@ -243,28 +243,16 @@ body p {
   margin-bottom: 16px;
 }
 
-.work p {
+.work .work-text {
   margin-bottom: 56px;
 }
 
 .work .work-imgCard {
-  margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   gap: 24px;
-}
-
-.work .work-imgCard .card {
-  margin-bottom: 92px;
+  margin-bottom: 48px;
 }
 
 .work .work-imgCard .card img {

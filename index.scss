@@ -3,6 +3,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+
     h2 {
         font-weight: 500;
         font-size: 64px;
@@ -162,26 +163,21 @@ body {
         margin-bottom: 16px;
     }
 
-    p {
+    .work-text {
         margin-bottom: 56px;
     }
 
     .work-imgCard {
-        margin: auto;
         display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
         gap: 24px;
-
-        .card {
-            margin-bottom: 92px;
-
-            img {
+        margin-bottom: 48px;
+        .card{
+            img{
                 margin-bottom: 16px;
             }
         }
     }
+
 }
 
 .contact {
